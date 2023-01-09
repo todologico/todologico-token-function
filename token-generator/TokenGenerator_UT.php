@@ -23,7 +23,7 @@ class Token_UT extends Controller
 public function token_Generator_Min20_Max500_UT($width=null)
 {
 
-    $mytoken= null;
+    $mytoken= false;
 
     if(isset($width) and is_numeric($width) and $width>=20 and $width<=500){        
 
